@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MERGED - BTN_Khóa_4_Chương_6_Phạm Văn Bách</title>
+  <!-- GOOGLE FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <!-- FONTS AWESOME CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- BOOTSTRAP V4.5 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- OWL CAROUSEL CSS -->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-7 col-md-6 header--left">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-5 col-md-6 text-white text-right header--right">
+          <a href="tel:021365777">
+            <i class="fa fa-phone"></i>
+            <span>+021 365 777</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand text-center navbar-brand--logo">
+        <h1 class="mb-0">M<span>ERGED</span></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mergedMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mergedMenu">
+        <ul class="navbar-nav ml-auto mt-2 navbar-nav--menu">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">HOME</a>
+            <div class="nav-item--line"></div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT</a>
+            <div class="nav-item--line"></div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">GALLERY</a>
+            <div class="nav-item--line"></div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">PAGES</a>
+            <div class="nav-item--line"></div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Code</a>
+              <a class="dropdown-item" href="#">About</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT</a>
+            <div class="nav-item--line"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- CAROUSEL -->
+  <section class="carousel-section text-center">
+    <div class="carousel--overlay__dot">
+      <div id="carouselContent" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators carousel--indicators">
+          <li data-target="#carouselContent" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselContent" data-slide-to="1"></li>
+          <li data-target="#carouselContent" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel--overlay__transparent"></div>
+            <div class="carousel-caption carousel-caption--config">
+              <h2 class="mb-0">the best business support</h2>
+              <p>Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec Nisl Dolor, Mollis Vel Libero Id,
+                Tempor Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.</p>
+              <button type="button" class="btn carousel--button button__about">About Us</button>
+              <button type="button" class="btn carousel--button button__readmore" data-toggle="modal"
+                data-target="#modal-carousel">Read More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel--overlay__transparent"></div>
+            <div class="carousel-caption carousel-caption--config">
+              <h2>SERVICES TO GROW YOUR BUSINESS</h2>
+              <p>Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec Nisl Dolor, Mollis Vel Libero Id,
+                Tempor Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.</p>
+              <button type="button" class="btn carousel--button button__readmore" data-toggle="modal"
+                data-target="#modal-carousel">Read More</button>
+              <button type="button" class="btn carousel--button button__about">About Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel--overlay__transparent"></div>
+            <div class="carousel-caption carousel-caption--config">
+              <h2>OPEN MINDS. CREATING FUTURE.</h2>
+              <p>Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec Nisl Dolor, Mollis Vel Libero Id,
+                Tempor Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.</p>
+              <button type="button" class="btn carousel--button button__about">About Us</button>
+              <button type="button" class="btn carousel--button button__readmore" data-toggle="modal"
+                data-target="#modal-carousel">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="modal fade" id="modal-carousel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modal-header--carousel">
+          <h3>Merged</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body modal--carousel__text">
+          <img src="./images/about.jpg" alt="Modal img" class="img-fluid">
+          <p class="modal-text">Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus
+            risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis.
+            Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit
+            massa. Nam id metus id tellus ultrices ullamcorper.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="container whatYou-section">
+    <div class="row">
+      <div class="col text-center">
+        <h1>What you get</h1>
+        <p>Our team provides consulting services focusing on the most critical business issues.</p>
+        <div class="whatYou--line"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center whatYou--item">
+        <i class="fas fa-th-large"></i>
+        <h2>Advanced Business</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="col-md-4 text-center whatYou--item whatYou--item__mid">
+        <i class="fas fa-share-square"></i>
+        <h2>Free Updates</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="col-md-4 text-center whatYou--item">
+        <i class="fas fa-expand-arrows-alt"></i>
+        <h2>Looking Exellent</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US HOME BANNER -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 contact--text">
+          <h3>We Make the Best Business Solutions</h3>
+        </div>
+        <div class="col-md-3 contact--button">
+          <a class="btn" href="#" role="button">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- NUMBER -->
+  <section class="container number-section">
+    <div class="row number--title">
+      <div class="col text-center">
+        <h1>We are always ahead<br>
+          Proffesional solutions for your business.</h1>
+        <p>Our results will fascinate you with the results we have</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4 number--item">
+        <h3 class="num">1,546</h3>
+        <h4>Satisfied Clients</h4>
+        <p>Pure satisfaction</p>
+      </div>
+      <div class="col-md-4 number--item">
+        <h3 class="num">14,345</h3>
+        <h4>Satisfied Clients</h4>
+        <p>Pure satisfaction</p>
+      </div>
+      <div class="col-md-4 number--item">
+        <h3 class="num">563</h3>
+        <h4>Satisfied Clients</h4>
+        <p>Pure satisfaction</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR MAIN SERVICES -->
+  <section class="services-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="text-white">Our Main Services</h1>
+          <p class="text-white">Our team provides consulting services focusing on the most critical business issues.</p>
+        </div>
+      </div>
+      <div class="row text-center services--content">
+        <div class="col-12 col-sm-6 col-md-4 service--tomato">
+          <i class="fas fa-arrows-alt"></i>
+          <h5>Commodities</h5>
+          <span>Taque earum rerum hitaque tenetur rum sapiente</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 service--white">
+          <i class="fas fa-chart-bar"></i>
+          <h5>Analysis</h5>
+          <span>Taque earum rerum hitaque tenetur rum sapiente</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 service--tomato">
+          <i class="fab fa-btc"></i>
+          <h5>Consulting</h5>
+          <span>Taque earum rerum hitaque tenetur rum sapiente</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 service--white">
+          <i class="fas fa-cogs"></i>
+          <h5>Forecasting</h5>
+          <span>Taque earum rerum hitaque tenetur rum sapiente</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 service--tomato">
+          <i class="fas fa-bullseye"></i>
+          <h5>Financial</h5>
+          <span>Taque earum rerum hitaque tenetur rum sapiente</span>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 service--white">
+          <i class="fas fa-cubes"></i>
+          <h5>Assurance</h5>
+          <span>Taque earum rerum hitaque tenetur rum sapiente</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTOMINIALS -->
+  <section class="container testominials-section">
+    <div class="row text-center">
+      <div class="col">
+        <h1>Our Customers’ Opinion</h1>
+        <p>Our team provides consulting services focusing on the most critical business issues.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col owl-carousel owl-theme text-center">
+        <div class="item">
+          <div class="testominials--item">
+            <div class="testominials--item__img">
+              <img src="./images/t1.jpg" alt="test 1">
+            </div>
+            <h3>Federeka</h3>
+            <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et
+              aliquet diam vestibulum ut.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testominials--item">
+            <div class="testominials--item__img">
+              <img src="./images/t2.jpg" alt="test 2">
+            </div>
+            <h3>Mary Watson</h3>
+            <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et
+              aliquet diam vestibulum ut.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testominials--item">
+            <div class="testominials--item__img">
+              <img src="./images/t3.jpg" alt="test 3">
+            </div>
+            <h3>Thompson</h3>
+            <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et
+              aliquet diam vestibulum ut.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testominials--item">
+            <div class="testominials--item__img">
+              <img src="./images/t4.jpg" alt="test 4">
+            </div>
+            <h3>Gomez</h3>
+            <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et
+              aliquet diam vestibulum ut.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testominials--item">
+            <div class="testominials--item__img">
+              <img src="./images/t1.jpg" alt="test 5">
+            </div>
+            <h3>John Whick</h3>
+            <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et
+              aliquet diam vestibulum ut.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testominials--item">
+            <div class="testominials--item__img">
+              <img src="./images/t2.jpg" alt="test 6">
+            </div>
+            <h3>Tom Cruise</h3>
+            <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et
+              aliquet diam vestibulum ut.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer--section">
+      <div class="container">
+        <div class="row footer--contact-info">
+          <div class="col-md-6">
+            <div class="footer--sub">
+              <h2>Subscribe Newsletter</h2>
+              <h6>By subscribing to our mailing list you will always get latest news from us.</h6>
+              <form action="#" method="post">
+                <input type="email" name="Email" placeholder="Enter your email..." required="">
+                <button class="btn1"><i class="far fa-envelope text-white m-0"></i></button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-2 px-md-4 mb-5 mb-sm-0">
+            <h2 class="mt-sm-5 mt-md-0">Our Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 px-md-5 px-lg-0">
+            <h2 class="mt-sm-5 mt-md-0">Contact Us</h2>
+            <h5>
+              <i class="fa fa-map-marker"></i>
+              <span>1234k Avenue, 4th block, New York City.</span>
+            </h5>
+            <h5>
+              <i class="fa fa-envelope"></i>
+              <span>info@example.com</span>
+            </h5>
+            <h5>
+              <i class="fa fa-phone"></i>
+              <span>+1234 567 567</span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer--copyright text-center text-white">
+      <h5 class="mb-0">&copy; 2018 Merged. All Rights Reserved | Design by <a href="#">w3layouts</a></h5>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a class="backToTop cd-top text-replace js-cd-top" href="#">
+    <img src="./images/arrow.png" alt="Back to ToP">
+  </a>
+  <!-- Back to Top JS -->
+  <script src="./js/util.js"></script>
+  <script src="./js/main-backToTop.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!-- Owl Carousel JS -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+  <!-- Jquery Waypoints + Couting up JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="./js/jquery.countup.min.js"></script>
+  <script>
+    $(".num").countUp();
+  </script>
+</body>
+
+</html>
